@@ -7,9 +7,9 @@ class Joke extends Component {
     return (
       <div className="Joke">
         <div className="Joke-buttons">
-          <FontAwesomeIcon icon={faArrowUp} />
+          <FontAwesomeIcon icon={faArrowUp} onClick= {this.props.upvote} />
           <span>{this.props.votes}</span>
-          <FontAwesomeIcon icon={faArrowDown} />
+          <FontAwesomeIcon icon={faArrowDown} onClick={this.props.downvote} />
         </div>
         <div className="Joke-text">
           {this.props.text}
