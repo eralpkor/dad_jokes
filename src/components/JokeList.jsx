@@ -44,6 +44,7 @@ class JokeList extends Component {
         </div>
         <div className="JokeList-jokes">
           {this.state.jokes.map(joke => (
+            // Joke component
             <Joke
               key={joke.id}
               votes= {joke.votes}

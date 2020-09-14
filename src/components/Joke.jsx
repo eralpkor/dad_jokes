@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './Joke.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowUp, faArrowDown } from '@fortawesome/free-solid-svg-icons'
 
