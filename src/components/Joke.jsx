@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import './Joke.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faArrowUp, faArrowDown } from '@fortawesome/free-solid-svg-icons';
 
+import { FaArrowDown, FaArrowUp } from 'react-icons/fa';
 
 class Joke extends Component {
 
@@ -47,9 +46,10 @@ class Joke extends Component {
     return (
       <div className="Joke">
         <div className="Joke-buttons">
-          <FontAwesomeIcon className="fa-arrow-up" icon={faArrowUp} onClick= {this.props.upvote} />
+          <FaArrowUp className="fa-arrow-up" onClick= {this.props.upvote} />
+
           <span className="Joke-votes" style={{borderColor: this.getColor()}}>{this.props.votes}</span>
-          <FontAwesomeIcon className="fa-arrow-down" icon={faArrowDown} onClick={this.props.downvote} />
+          <FaArrowDown className="fa-arrow-down" onClick={this.props.downvote} />
         </div>
         <div className="Joke-text">
           {this.props.text}
