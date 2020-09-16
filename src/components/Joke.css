@@ -116,3 +116,60 @@
     transform: rotate(0deg);
   }
 }
+
+ /* Small screens */
+@media only screen and (max-width: 1100px) {
+  
+}
+
+ @media only screen and (max-width: 600px) {
+   .Joke-text {
+     font-size: 0.8rem;
+   }
+   .Joke-smiley {
+     font-size: 1.7em;
+   }
+   .fa-arrow-up,
+  .fa-arrow-down {
+    font-size: 1rem;
+  }
+  .Joke-votes {
+    width: 25px;
+    height: 25px;
+    font-size: 0.7rem;
+    border: 2px solid red;
+    line-height: 25px;
+  }
+  .Joke-buttons {
+    width: 25%;
+    margin-right: 2px;
+  }
+
+ }
+
+@media only screen and (max-width: 450px) {
+  .Joke {
+    padding: 5px;
+  }
+  .Joke-text {
+    font-size: 0.7rem;
+  }
+  .Joke-smiley {
+    font-size: 1.5em;
+  }
+  .fa-arrow-up,
+ .fa-arrow-down {
+   font-size: 0.7rem;
+ }
+ .Joke-votes {
+   width: 20px;
+   height: 20px;
+   font-size: 0.7rem;
+   border: 2px solid red;
+   line-height: 20px;
+ }
+ .Joke-buttons {
+   width: 35%;
+   margin-right: 2px;
+ }
+}
