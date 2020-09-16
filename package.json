@@ -1,7 +1,7 @@
 {
   "name": "dad_jokes",
   "version": "0.1.0",
-  "homepage": "https://eralpkor/github.io/dad_jokes",
+  "homepage": "https://eralpkor.github.io/dad_jokes/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
