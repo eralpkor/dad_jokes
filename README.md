@@ -33,5 +33,6 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 
 
-
+"predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
 
