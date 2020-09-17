@@ -6,6 +6,7 @@ import { FaArrowDown, FaArrowUp } from 'react-icons/fa';
 class Joke extends Component {
 
   getColor() {
+    let vote = this.props.votes;
     if (this.props.votes >= 15) {
       return "#4CAF50";
     } else if (this.props.votes >= 12) {
