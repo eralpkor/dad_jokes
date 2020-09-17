@@ -36,3 +36,9 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
 
+"scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
